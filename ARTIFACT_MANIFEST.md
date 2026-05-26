@@ -61,8 +61,10 @@ Date: 2026-05-26
 - `figures_v0.3/source_data/Figure_2_source_data.csv`
 - `figures_v0.3/source_data/Figure_3_source_data.csv`
 - `scripts/generate_figures_v0_3.py`
+- `release_notes_v0.3.md`
 - `manuscript_support/data_availability_fair_plan_v0.3.md`
 - `manuscript_support/figure_contracts_v0.3.md`
+- `manuscript_support/github_upload_commands_v0.3.md`
 - `manuscript_support/literature_search_and_verification_plan_v0.3.md`
 
 ## Remaining optional work
