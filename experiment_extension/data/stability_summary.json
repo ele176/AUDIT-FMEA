@@ -1,0 +1,810 @@
+{
+  "runs_dir": "C:\\aicoding\\lihuilunwen\\paper_project\\08_top_conference_rework\\experiment_extension\\data\\runs",
+  "run_count": 15,
+  "runs": [
+    {
+      "variant": "M2",
+      "run_id": "01",
+      "file": "M2_run01.csv",
+      "metrics": {
+        "row_count": 15,
+        "invalid_count": 0,
+        "invalid_rate": 0.0,
+        "duplicate_pair_count": 0,
+        "evidence_trace_count": 0,
+        "evidence_trace_rate": 0.0,
+        "high_risk_rpn_count": 4,
+        "high_severity_count": 8,
+        "rpn_mismatch_count": 0,
+        "duplicate_pairs": [],
+        "invalid_reasons_by_item": {
+          "M2-001": [],
+          "M2-002": [],
+          "M2-003": [],
+          "M2-004": [],
+          "M2-005": [],
+          "M2-006": [],
+          "M2-007": [],
+          "M2-008": [],
+          "M2-009": [],
+          "M2-010": [],
+          "M2-011": [],
+          "M2-012": [],
+          "M2-013": [],
+          "M2-014": [],
+          "M2-015": []
+        }
+      }
+    },
+    {
+      "variant": "M2",
+      "run_id": "02",
+      "file": "M2_run02.csv",
+      "metrics": {
+        "row_count": 15,
+        "invalid_count": 0,
+        "invalid_rate": 0.0,
+        "duplicate_pair_count": 0,
+        "evidence_trace_count": 0,
+        "evidence_trace_rate": 0.0,
+        "high_risk_rpn_count": 12,
+        "high_severity_count": 10,
+        "rpn_mismatch_count": 0,
+        "duplicate_pairs": [],
+        "invalid_reasons_by_item": {
+          "M2R2-001": [],
+          "M2R2-002": [],
+          "M2R2-003": [],
+          "M2R2-004": [],
+          "M2R2-005": [],
+          "M2R2-006": [],
+          "M2R2-007": [],
+          "M2R2-008": [],
+          "M2R2-009": [],
+          "M2R2-010": [],
+          "M2R2-011": [],
+          "M2R2-012": [],
+          "M2R2-013": [],
+          "M2R2-014": [],
+          "M2R2-015": []
+        }
+      }
+    },
+    {
+      "variant": "M2",
+      "run_id": "03",
+      "file": "M2_run03.csv",
+      "metrics": {
+        "row_count": 16,
+        "invalid_count": 0,
+        "invalid_rate": 0.0,
+        "duplicate_pair_count": 0,
+        "evidence_trace_count": 0,
+        "evidence_trace_rate": 0.0,
+        "high_risk_rpn_count": 13,
+        "high_severity_count": 10,
+        "rpn_mismatch_count": 0,
+        "duplicate_pairs": [],
+        "invalid_reasons_by_item": {
+          "M2R3-001": [],
+          "M2R3-002": [],
+          "M2R3-003": [],
+          "M2R3-004": [],
+          "M2R3-005": [],
+          "M2R3-006": [],
+          "M2R3-007": [],
+          "M2R3-008": [],
+          "M2R3-009": [],
+          "M2R3-010": [],
+          "M2R3-011": [],
+          "M2R3-012": [],
+          "M2R3-013": [],
+          "M2R3-014": [],
+          "M2R3-015": [],
+          "M2R3-016": []
+        }
+      }
+    },
+    {
+      "variant": "M3",
+      "run_id": "01",
+      "file": "M3_run01.csv",
+      "metrics": {
+        "row_count": 16,
+        "invalid_count": 0,
+        "invalid_rate": 0.0,
+        "duplicate_pair_count": 0,
+        "evidence_trace_count": 16,
+        "evidence_trace_rate": 1.0,
+        "high_risk_rpn_count": 5,
+        "high_severity_count": 9,
+        "rpn_mismatch_count": 0,
+        "duplicate_pairs": [],
+        "invalid_reasons_by_item": {
+          "M3-001": [],
+          "M3-002": [],
+          "M3-003": [],
+          "M3-004": [],
+          "M3-005": [],
+          "M3-006": [],
+          "M3-007": [],
+          "M3-008": [],
+          "M3-009": [],
+          "M3-010": [],
+          "M3-011": [],
+          "M3-012": [],
+          "M3-013": [],
+          "M3-014": [],
+          "M3-015": [],
+          "M3-016": []
+        }
+      }
+    },
+    {
+      "variant": "M3",
+      "run_id": "02",
+      "file": "M3_run02.csv",
+      "metrics": {
+        "row_count": 16,
+        "invalid_count": 0,
+        "invalid_rate": 0.0,
+        "duplicate_pair_count": 0,
+        "evidence_trace_count": 16,
+        "evidence_trace_rate": 1.0,
+        "high_risk_rpn_count": 10,
+        "high_severity_count": 9,
+        "rpn_mismatch_count": 0,
+        "duplicate_pairs": [],
+        "invalid_reasons_by_item": {
+          "M3R2-001": [],
+          "M3R2-002": [],
+          "M3R2-003": [],
+          "M3R2-004": [],
+          "M3R2-005": [],
+          "M3R2-006": [],
+          "M3R2-007": [],
+          "M3R2-008": [],
+          "M3R2-009": [],
+          "M3R2-010": [],
+          "M3R2-011": [],
+          "M3R2-012": [],
+          "M3R2-013": [],
+          "M3R2-014": [],
+          "M3R2-015": [],
+          "M3R2-016": []
+        }
+      }
+    },
+    {
+      "variant": "M3",
+      "run_id": "03",
+      "file": "M3_run03.csv",
+      "metrics": {
+        "row_count": 16,
+        "invalid_count": 0,
+        "invalid_rate": 0.0,
+        "duplicate_pair_count": 0,
+        "evidence_trace_count": 16,
+        "evidence_trace_rate": 1.0,
+        "high_risk_rpn_count": 14,
+        "high_severity_count": 9,
+        "rpn_mismatch_count": 0,
+        "duplicate_pairs": [],
+        "invalid_reasons_by_item": {
+          "M3R3-001": [],
+          "M3R3-002": [],
+          "M3R3-003": [],
+          "M3R3-004": [],
+          "M3R3-005": [],
+          "M3R3-006": [],
+          "M3R3-007": [],
+          "M3R3-008": [],
+          "M3R3-009": [],
+          "M3R3-010": [],
+          "M3R3-011": [],
+          "M3R3-012": [],
+          "M3R3-013": [],
+          "M3R3-014": [],
+          "M3R3-015": [],
+          "M3R3-016": []
+        }
+      }
+    },
+    {
+      "variant": "M4_full",
+      "run_id": "01",
+      "file": "M4_full_run01.csv",
+      "metrics": {
+        "row_count": 18,
+        "invalid_count": 0,
+        "invalid_rate": 0.0,
+        "duplicate_pair_count": 0,
+        "evidence_trace_count": 18,
+        "evidence_trace_rate": 1.0,
+        "high_risk_rpn_count": 5,
+        "high_severity_count": 11,
+        "rpn_mismatch_count": 0,
+        "duplicate_pairs": [],
+        "invalid_reasons_by_item": {
+          "M4-001": [],
+          "M4-002": [],
+          "M4-003": [],
+          "M4-004": [],
+          "M4-005": [],
+          "M4-006": [],
+          "M4-007": [],
+          "M4-008": [],
+          "M4-009": [],
+          "M4-010": [],
+          "M4-011": [],
+          "M4-012": [],
+          "M4-013": [],
+          "M4-014": [],
+          "M4-015": [],
+          "M4-016": [],
+          "M4-017": [],
+          "M4-018": []
+        }
+      }
+    },
+    {
+      "variant": "M4_full",
+      "run_id": "02",
+      "file": "M4_full_run02.csv",
+      "metrics": {
+        "row_count": 18,
+        "invalid_count": 0,
+        "invalid_rate": 0.0,
+        "duplicate_pair_count": 0,
+        "evidence_trace_count": 18,
+        "evidence_trace_rate": 1.0,
+        "high_risk_rpn_count": 13,
+        "high_severity_count": 11,
+        "rpn_mismatch_count": 0,
+        "duplicate_pairs": [],
+        "invalid_reasons_by_item": {
+          "M4R2-001": [],
+          "M4R2-002": [],
+          "M4R2-003": [],
+          "M4R2-004": [],
+          "M4R2-005": [],
+          "M4R2-006": [],
+          "M4R2-007": [],
+          "M4R2-008": [],
+          "M4R2-009": [],
+          "M4R2-010": [],
+          "M4R2-011": [],
+          "M4R2-012": [],
+          "M4R2-013": [],
+          "M4R2-014": [],
+          "M4R2-015": [],
+          "M4R2-016": [],
+          "M4R2-017": [],
+          "M4R2-018": []
+        }
+      }
+    },
+    {
+      "variant": "M4_full",
+      "run_id": "03",
+      "file": "M4_full_run03.csv",
+      "metrics": {
+        "row_count": 17,
+        "invalid_count": 0,
+        "invalid_rate": 0.0,
+        "duplicate_pair_count": 0,
+        "evidence_trace_count": 17,
+        "evidence_trace_rate": 1.0,
+        "high_risk_rpn_count": 15,
+        "high_severity_count": 10,
+        "rpn_mismatch_count": 0,
+        "duplicate_pairs": [],
+        "invalid_reasons_by_item": {
+          "M4R3-001": [],
+          "M4R3-002": [],
+          "M4R3-003": [],
+          "M4R3-004": [],
+          "M4R3-005": [],
+          "M4R3-006": [],
+          "M4R3-007": [],
+          "M4R3-008": [],
+          "M4R3-009": [],
+          "M4R3-010": [],
+          "M4R3-011": [],
+          "M4R3-012": [],
+          "M4R3-013": [],
+          "M4R3-014": [],
+          "M4R3-015": [],
+          "M4R3-016": [],
+          "M4R3-017": []
+        }
+      }
+    },
+    {
+      "variant": "M4_no_critic",
+      "run_id": "01",
+      "file": "M4_no_critic_run01.csv",
+      "metrics": {
+        "row_count": 18,
+        "invalid_count": 1,
+        "invalid_rate": 0.056,
+        "duplicate_pair_count": 1,
+        "evidence_trace_count": 18,
+        "evidence_trace_rate": 1.0,
+        "high_risk_rpn_count": 14,
+        "high_severity_count": 11,
+        "rpn_mismatch_count": 0,
+        "duplicate_pairs": [
+          [
+            "M4NC1-003",
+            "M4NC1-D01",
+            0.958
+          ]
+        ],
+        "invalid_reasons_by_item": {
+          "M4NC1-001": [],
+          "M4NC1-002": [],
+          "M4NC1-003": [],
+          "M4NC1-004": [],
+          "M4NC1-005": [],
+          "M4NC1-006": [],
+          "M4NC1-007": [],
+          "M4NC1-008": [],
+          "M4NC1-009": [],
+          "M4NC1-010": [],
+          "M4NC1-011": [],
+          "M4NC1-012": [],
+          "M4NC1-013": [],
+          "M4NC1-014": [],
+          "M4NC1-015": [],
+          "M4NC1-016": [],
+          "M4NC1-G01": [
+            "too_vague_failure_mode"
+          ],
+          "M4NC1-D01": []
+        }
+      }
+    },
+    {
+      "variant": "M4_no_critic",
+      "run_id": "02",
+      "file": "M4_no_critic_run02.csv",
+      "metrics": {
+        "row_count": 17,
+        "invalid_count": 1,
+        "invalid_rate": 0.059,
+        "duplicate_pair_count": 1,
+        "evidence_trace_count": 17,
+        "evidence_trace_rate": 1.0,
+        "high_risk_rpn_count": 12,
+        "high_severity_count": 12,
+        "rpn_mismatch_count": 0,
+        "duplicate_pairs": [
+          [
+            "M4NC2-003",
+            "M4NC2-D01",
+            0.958
+          ]
+        ],
+        "invalid_reasons_by_item": {
+          "M4NC2-001": [],
+          "M4NC2-002": [],
+          "M4NC2-003": [],
+          "M4NC2-004": [],
+          "M4NC2-005": [],
+          "M4NC2-006": [],
+          "M4NC2-007": [],
+          "M4NC2-008": [],
+          "M4NC2-009": [],
+          "M4NC2-010": [],
+          "M4NC2-011": [],
+          "M4NC2-012": [],
+          "M4NC2-013": [],
+          "M4NC2-014": [],
+          "M4NC2-015": [],
+          "M4NC2-G01": [
+            "too_vague_failure_mode"
+          ],
+          "M4NC2-D01": []
+        }
+      }
+    },
+    {
+      "variant": "M4_no_critic",
+      "run_id": "03",
+      "file": "M4_no_critic_run03.csv",
+      "metrics": {
+        "row_count": 18,
+        "invalid_count": 1,
+        "invalid_rate": 0.056,
+        "duplicate_pair_count": 1,
+        "evidence_trace_count": 18,
+        "evidence_trace_rate": 1.0,
+        "high_risk_rpn_count": 16,
+        "high_severity_count": 11,
+        "rpn_mismatch_count": 0,
+        "duplicate_pairs": [
+          [
+            "M4NC3-003",
+            "M4NC3-D01",
+            0.958
+          ]
+        ],
+        "invalid_reasons_by_item": {
+          "M4NC3-001": [],
+          "M4NC3-002": [],
+          "M4NC3-003": [],
+          "M4NC3-004": [],
+          "M4NC3-005": [],
+          "M4NC3-006": [],
+          "M4NC3-007": [],
+          "M4NC3-008": [],
+          "M4NC3-009": [],
+          "M4NC3-010": [],
+          "M4NC3-011": [],
+          "M4NC3-012": [],
+          "M4NC3-013": [],
+          "M4NC3-014": [],
+          "M4NC3-015": [],
+          "M4NC3-016": [],
+          "M4NC3-G01": [
+            "too_vague_failure_mode"
+          ],
+          "M4NC3-D01": []
+        }
+      }
+    },
+    {
+      "variant": "M4_no_integrity",
+      "run_id": "01",
+      "file": "M4_no_integrity_run01.csv",
+      "metrics": {
+        "row_count": 16,
+        "invalid_count": 1,
+        "invalid_rate": 0.062,
+        "duplicate_pair_count": 0,
+        "evidence_trace_count": 16,
+        "evidence_trace_rate": 1.0,
+        "high_risk_rpn_count": 11,
+        "high_severity_count": 10,
+        "rpn_mismatch_count": 1,
+        "duplicate_pairs": [],
+        "invalid_reasons_by_item": {
+          "M4NI1-001": [],
+          "M4NI1-002": [
+            "rpn_mismatch"
+          ],
+          "M4NI1-003": [],
+          "M4NI1-004": [],
+          "M4NI1-005": [],
+          "M4NI1-006": [],
+          "M4NI1-007": [],
+          "M4NI1-008": [],
+          "M4NI1-009": [],
+          "M4NI1-010": [],
+          "M4NI1-011": [],
+          "M4NI1-012": [],
+          "M4NI1-013": [],
+          "M4NI1-014": [],
+          "M4NI1-015": [],
+          "M4NI1-016": []
+        }
+      }
+    },
+    {
+      "variant": "M4_no_integrity",
+      "run_id": "02",
+      "file": "M4_no_integrity_run02.csv",
+      "metrics": {
+        "row_count": 16,
+        "invalid_count": 2,
+        "invalid_rate": 0.125,
+        "duplicate_pair_count": 0,
+        "evidence_trace_count": 15,
+        "evidence_trace_rate": 0.938,
+        "high_risk_rpn_count": 10,
+        "high_severity_count": 9,
+        "rpn_mismatch_count": 1,
+        "duplicate_pairs": [],
+        "invalid_reasons_by_item": {
+          "M4NI2-001": [],
+          "M4NI2-002": [
+            "rpn_mismatch"
+          ],
+          "M4NI2-003": [],
+          "M4NI2-004": [],
+          "M4NI2-005": [],
+          "M4NI2-006": [
+            "missing_required_evidence_trace"
+          ],
+          "M4NI2-007": [],
+          "M4NI2-008": [],
+          "M4NI2-009": [],
+          "M4NI2-010": [],
+          "M4NI2-011": [],
+          "M4NI2-012": [],
+          "M4NI2-013": [],
+          "M4NI2-014": [],
+          "M4NI2-015": [],
+          "M4NI2-016": []
+        }
+      }
+    },
+    {
+      "variant": "M4_no_integrity",
+      "run_id": "03",
+      "file": "M4_no_integrity_run03.csv",
+      "metrics": {
+        "row_count": 16,
+        "invalid_count": 2,
+        "invalid_rate": 0.125,
+        "duplicate_pair_count": 0,
+        "evidence_trace_count": 16,
+        "evidence_trace_rate": 1.0,
+        "high_risk_rpn_count": 10,
+        "high_severity_count": 11,
+        "rpn_mismatch_count": 1,
+        "duplicate_pairs": [],
+        "invalid_reasons_by_item": {
+          "M4NI3-001": [],
+          "M4NI3-002": [
+            "rpn_mismatch"
+          ],
+          "M4NI3-003": [],
+          "M4NI3-004": [],
+          "M4NI3-005": [],
+          "M4NI3-006": [],
+          "M4NI3-007": [],
+          "M4NI3-008": [],
+          "M4NI3-009": [
+            "missing_recommended_action"
+          ],
+          "M4NI3-010": [],
+          "M4NI3-011": [],
+          "M4NI3-012": [],
+          "M4NI3-013": [],
+          "M4NI3-014": [],
+          "M4NI3-015": [],
+          "M4NI3-016": []
+        }
+      }
+    }
+  ],
+  "summary": {
+    "M2": {
+      "n_runs": 3,
+      "metrics": {
+        "row_count": {
+          "mean": 15.333,
+          "sd": 0.577,
+          "min": 15.0,
+          "max": 16.0
+        },
+        "invalid_rate": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "duplicate_pair_count": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "evidence_trace_rate": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "high_risk_rpn_count": {
+          "mean": 9.667,
+          "sd": 4.933,
+          "min": 4.0,
+          "max": 13.0
+        },
+        "high_severity_count": {
+          "mean": 9.333,
+          "sd": 1.155,
+          "min": 8.0,
+          "max": 10.0
+        },
+        "rpn_mismatch_count": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        }
+      }
+    },
+    "M3": {
+      "n_runs": 3,
+      "metrics": {
+        "row_count": {
+          "mean": 16.0,
+          "sd": 0.0,
+          "min": 16.0,
+          "max": 16.0
+        },
+        "invalid_rate": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "duplicate_pair_count": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "evidence_trace_rate": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "high_risk_rpn_count": {
+          "mean": 9.667,
+          "sd": 4.509,
+          "min": 5.0,
+          "max": 14.0
+        },
+        "high_severity_count": {
+          "mean": 9.0,
+          "sd": 0.0,
+          "min": 9.0,
+          "max": 9.0
+        },
+        "rpn_mismatch_count": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        }
+      }
+    },
+    "M4_full": {
+      "n_runs": 3,
+      "metrics": {
+        "row_count": {
+          "mean": 17.667,
+          "sd": 0.577,
+          "min": 17.0,
+          "max": 18.0
+        },
+        "invalid_rate": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "duplicate_pair_count": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "evidence_trace_rate": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "high_risk_rpn_count": {
+          "mean": 11.0,
+          "sd": 5.292,
+          "min": 5.0,
+          "max": 15.0
+        },
+        "high_severity_count": {
+          "mean": 10.667,
+          "sd": 0.577,
+          "min": 10.0,
+          "max": 11.0
+        },
+        "rpn_mismatch_count": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        }
+      }
+    },
+    "M4_no_critic": {
+      "n_runs": 3,
+      "metrics": {
+        "row_count": {
+          "mean": 17.667,
+          "sd": 0.577,
+          "min": 17.0,
+          "max": 18.0
+        },
+        "invalid_rate": {
+          "mean": 0.057,
+          "sd": 0.002,
+          "min": 0.056,
+          "max": 0.059
+        },
+        "duplicate_pair_count": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "evidence_trace_rate": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "high_risk_rpn_count": {
+          "mean": 14.0,
+          "sd": 2.0,
+          "min": 12.0,
+          "max": 16.0
+        },
+        "high_severity_count": {
+          "mean": 11.333,
+          "sd": 0.577,
+          "min": 11.0,
+          "max": 12.0
+        },
+        "rpn_mismatch_count": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        }
+      }
+    },
+    "M4_no_integrity": {
+      "n_runs": 3,
+      "metrics": {
+        "row_count": {
+          "mean": 16.0,
+          "sd": 0.0,
+          "min": 16.0,
+          "max": 16.0
+        },
+        "invalid_rate": {
+          "mean": 0.104,
+          "sd": 0.036,
+          "min": 0.062,
+          "max": 0.125
+        },
+        "duplicate_pair_count": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "evidence_trace_rate": {
+          "mean": 0.979,
+          "sd": 0.036,
+          "min": 0.938,
+          "max": 1.0
+        },
+        "high_risk_rpn_count": {
+          "mean": 10.333,
+          "sd": 0.577,
+          "min": 10.0,
+          "max": 11.0
+        },
+        "high_severity_count": {
+          "mean": 10.0,
+          "sd": 1.0,
+          "min": 9.0,
+          "max": 11.0
+        },
+        "rpn_mismatch_count": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "min": 1.0,
+          "max": 1.0
+        }
+      }
+    }
+  }
+}

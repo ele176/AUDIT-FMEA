@@ -1,0 +1,5 @@
+method,row_count,evidence_trace_rate,high_risk_rpn_count,high_severity_count,invalid_rate,duplicate_pair_count,rpn_mismatch_count
+M1,7,0.0,2,3,0.0,0,0
+M2,15,0.0,4,8,0.0,0,0
+M3,16,1.0,5,9,0.0,0,0
+M4,18,1.0,5,11,0.0,0,0

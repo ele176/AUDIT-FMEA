@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the associated manuscript."
+title: "AUDIT-FMEA: Auditable Multi-Agent Workflows for Design Failure Analysis"
+authors:
+  - family-names: "Wei"
+    given-names: "Chris"
+affiliation: "School of Mechanical, Electronic and Control Engineering, Beijing Jiaotong University"
+date-released: "2026-05-26"
+version: "0.3"
+license: "CC-BY-4.0"
+keywords:
+  - "design FMEA"
+  - "multi-agent LLM"
+  - "engineering design review"
+  - "auditability"
+  - "intelligent manufacturing"

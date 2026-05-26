@@ -1,0 +1,17 @@
+variant,run_id,file_name,model_name,model_provider,date_generated,temperature,top_p,seed_or_session_id,prompt_file,evidence_pack_version,notes
+M2,01,M2_run01.csv,original_AEI_run,mixed_original_workflow,2026-05-22,not_available,not_available,original_session,prompts/repeated_run_protocol.md,v0.1,Original AEI submission artifact
+M2,02,M2_run02.csv,Codex_GPT-5,Codex/ChatGPT workflow,2026-05-24,not_available,not_available,current_codex_thread,prompts/chatgpt_copy_paste_prompts.md,v0.1,Generated in current Codex session as LLM artifact
+M2,03,M2_run03.csv,Codex_GPT-5,Codex/ChatGPT workflow,2026-05-24,not_available,not_available,current_codex_thread,prompts/chatgpt_copy_paste_prompts.md,v0.1,Generated in current Codex session as LLM artifact
+M3,01,M3_run01.csv,original_AEI_run,mixed_original_workflow,2026-05-22,not_available,not_available,original_session,prompts/repeated_run_protocol.md,v0.1,Original AEI submission artifact
+M3,02,M3_run02.csv,Codex_GPT-5,Codex/ChatGPT workflow,2026-05-24,not_available,not_available,current_codex_thread,prompts/chatgpt_copy_paste_prompts.md,v0.1,Generated in current Codex session as LLM artifact
+M3,03,M3_run03.csv,Codex_GPT-5,Codex/ChatGPT workflow,2026-05-24,not_available,not_available,current_codex_thread,prompts/chatgpt_copy_paste_prompts.md,v0.1,Generated in current Codex session as LLM artifact
+M4_full,01,M4_full_run01.csv,original_AEI_run,mixed_original_workflow,2026-05-22,not_available,not_available,original_session,prompts/repeated_run_protocol.md,v0.1,Original AEI submission artifact
+M4_full,02,M4_full_run02.csv,Codex_GPT-5,Codex/ChatGPT workflow,2026-05-24,not_available,not_available,current_codex_thread,prompts/chatgpt_copy_paste_prompts.md,v0.1,Generated in current Codex session as LLM artifact
+M4_full,03,M4_full_run03.csv,Codex_GPT-5,Codex/ChatGPT workflow,2026-05-24,not_available,not_available,current_codex_thread,prompts/chatgpt_copy_paste_prompts.md,v0.1,Generated in current Codex session as LLM artifact
+M4_no_critic,01,M4_no_critic_run01.csv,Codex_GPT-5,Codex/ChatGPT workflow,2026-05-24,not_available,not_available,current_codex_thread,prompts/chatgpt_copy_paste_prompts.md,v0.1,Critic role intentionally omitted
+M4_no_critic,02,M4_no_critic_run02.csv,Codex_GPT-5,Codex/ChatGPT workflow,2026-05-24,not_available,not_available,current_codex_thread,prompts/chatgpt_copy_paste_prompts.md,v0.1,Critic role intentionally omitted
+M4_no_critic,03,M4_no_critic_run03.csv,Codex_GPT-5,Codex/ChatGPT workflow,2026-05-24,not_available,not_available,current_codex_thread,prompts/chatgpt_copy_paste_prompts.md,v0.1,Critic role intentionally omitted
+M4_no_integrity,01,M4_no_integrity_run01.csv,Codex_GPT-5,Codex/ChatGPT workflow,2026-05-24,not_available,not_available,current_codex_thread,prompts/chatgpt_copy_paste_prompts.md,v0.1,Final integrity role intentionally omitted
+M4_no_integrity,02,M4_no_integrity_run02.csv,Codex_GPT-5,Codex/ChatGPT workflow,2026-05-24,not_available,not_available,current_codex_thread,prompts/chatgpt_copy_paste_prompts.md,v0.1,Final integrity role intentionally omitted
+M4_no_integrity,03,M4_no_integrity_run03.csv,Codex_GPT-5,Codex/ChatGPT workflow,2026-05-24,not_available,not_available,current_codex_thread,prompts/chatgpt_copy_paste_prompts.md,v0.1,Final integrity role intentionally omitted
+

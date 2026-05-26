@@ -1,0 +1,31 @@
+{
+  "title": "AUDIT-FMEA: Auditable Multi-Agent Workflows for Design Failure Analysis",
+  "upload_type": "dataset",
+  "description": "Reproducibility artifact for AUDIT-FMEA, including prompts, evidence material, normalized DFMEA outputs, repeated-run and role-ablation outputs, metric scripts, generated manuscript figures, source data, and manuscript-supporting documentation. The artifact supports structural auditability analysis only and does not provide expert validation, physical braking testing, or safety certification evidence.",
+  "creators": [
+    {
+      "name": "Wei, Chris",
+      "affiliation": "School of Mechanical, Electronic and Control Engineering, Beijing Jiaotong University"
+    }
+  ],
+  "version": "0.3",
+  "language": "eng",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "design FMEA",
+    "DFMEA",
+    "large language models",
+    "multi-agent systems",
+    "retrieval-augmented generation",
+    "engineering design review",
+    "intelligent manufacturing",
+    "auditability"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/USERNAME/AUDIT-FMEA",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

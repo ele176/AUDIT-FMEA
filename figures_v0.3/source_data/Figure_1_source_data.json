@@ -1,0 +1,28 @@
+{
+  "core_conclusion": "AUDIT-FMEA treats LLM-assisted DFMEA as an auditable artifact pipeline with evidence, critic, and integrity gates.",
+  "roles": [
+    "Function mapping",
+    "Evidence attribution",
+    "Failure-mode generation",
+    "Cause-effect reasoning",
+    "Risk scoring",
+    "Critic review",
+    "Mitigation refinement",
+    "Integrity checking"
+  ],
+  "artifacts": [
+    "Evidence pack",
+    "Candidate rows",
+    "Critic notes",
+    "Final DFMEA",
+    "Metric report"
+  ],
+  "claim_boundary": [
+    "structural traceability",
+    "duplicate and invalid-row checks",
+    "RPN arithmetic checks",
+    "not expert validation",
+    "not physical braking testing",
+    "not safety certification"
+  ]
+}

@@ -1,0 +1,2 @@
+method_id,item_id,subsystem,function,requirement_or_evidence_anchor,potential_failure_mode,potential_effect,severity_s,potential_cause,occurrence_o,current_control,detection_d,rpn,recommended_action,responsible_role,evidence_trace,critic_notes,status
+
