@@ -38,6 +38,7 @@ After the GitHub release exists:
 
 1. Open Zenodo.
 2. Connect GitHub.
-3. Enable archiving for `AUDIT-FMEA`.
-4. Recreate or archive release `v0.3`.
-5. Copy the DOI into the manuscript Data and Code Availability section.
+3. Make the GitHub repository public if using the standard GitHub-Zenodo integration.
+4. Enable archiving for `AUDIT-FMEA`.
+5. Recreate or archive release `v0.3`.
+6. Copy the DOI into the manuscript Data and Code Availability section.

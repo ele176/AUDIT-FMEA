@@ -23,7 +23,7 @@
   ],
   "related_identifiers": [
     {
-      "identifier": "https://github.com/USERNAME/AUDIT-FMEA",
+      "identifier": "https://github.com/ele176/AUDIT-FMEA",
       "relation": "isSupplementTo",
       "scheme": "url"
     }

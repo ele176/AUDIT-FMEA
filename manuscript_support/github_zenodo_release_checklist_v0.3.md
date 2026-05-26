@@ -12,6 +12,14 @@ Repository name:
 
 `AUDIT-FMEA`
 
+Current GitHub repository:
+
+`https://github.com/ele176/AUDIT-FMEA`
+
+Current release:
+
+`https://github.com/ele176/AUDIT-FMEA/releases/tag/v0.3`
+
 Suggested description:
 
 Reproducibility artifact for auditable multi-agent DFMEA workflows.
@@ -21,6 +29,10 @@ Visibility before submission:
 - Use a private repository if double-blind review is required.
 - Use an anonymous reviewer-access route if the venue requires blind review.
 - Make public only when allowed by the target venue or after acceptance.
+
+Zenodo public-access gate:
+
+Zenodo's GitHub integration requires the repository to be accessible to Zenodo. For the standard GitHub-Zenodo DOI route, make the repository public before enabling archiving and triggering the release archive.
 
 ## Release settings
 
@@ -80,4 +92,3 @@ After DOI exists, update:
 2. `data_availability_fair_plan_v0.3.md`
 3. `.zenodo.json` related identifier URL
 4. Cover letter and submission metadata, if later created
-
