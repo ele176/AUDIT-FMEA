@@ -27,6 +27,10 @@ Selected route:
 3. Archive the release in Zenodo to obtain a DOI.
 4. Use Zenodo's reviewer-access/private-link workflow if the venue needs anonymous review before publication.
 
+Current status:
+
+The GitHub repository and `v0.3` release have been created, but the repository remains private. Zenodo DOI minting is deferred until the target venue and anonymity policy are clear.
+
 Alternative route:
 
 Use OSF if a simpler project page and anonymous review link are more convenient. A DOI should still be minted before final publication if the venue permits.
@@ -42,7 +46,7 @@ Avoid:
 
 Data Availability
 
-The data and code supporting this study will be deposited through a versioned GitHub release archived on Zenodo before submission. The repository will include the evidence pack, prompts, normalized DFMEA outputs, repeated-run and role-ablation outputs, metric scripts, run manifest, generated summary tables, figure source data, and generated figure files. The Zenodo DOI or anonymous reviewer-access link will be added here: [ZENODO DOI OR REVIEWER LINK]. These materials support recomputation of the structural auditability metrics reported in the manuscript. They do not contain expert validation data, physical braking-test data, or safety-certification evidence.
+The data and code supporting this study have been prepared in a private versioned GitHub release and will be archived on Zenodo when public release is allowed by the target venue. The repository package includes the evidence pack, prompts, normalized DFMEA outputs, repeated-run and role-ablation outputs, metric scripts, run manifest, generated summary tables, figure source data, and generated figure files. The Zenodo DOI or anonymous reviewer-access link will be added here: [ZENODO DOI OR REVIEWER LINK]. These materials support recomputation of the structural auditability metrics reported in the manuscript. They do not contain expert validation data, physical braking-test data, or safety-certification evidence.
 
 ## Dataset citation template
 

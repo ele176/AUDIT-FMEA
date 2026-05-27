@@ -66,6 +66,7 @@ Date: 2026-05-26
 - `manuscript_support/figure_contracts_v0.3.md`
 - `manuscript_support/github_upload_commands_v0.3.md`
 - `manuscript_support/literature_search_and_verification_plan_v0.3.md`
+- `manuscript_support/reference_verification_matrix_v0.3.md`
 
 ## Remaining optional work
 
