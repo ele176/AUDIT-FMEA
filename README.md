@@ -1,4 +1,4 @@
-# AUDIT-FMEA Public Artifact v0.3
+# AUDIT-FMEA Public Artifact v0.4
 
 This repository package supports the manuscript:
 
@@ -6,7 +6,7 @@ This repository package supports the manuscript:
 
 ## Purpose
 
-The artifact contains prompts, compact evidence material, normalized DFMEA outputs, metric scripts, initial results, repeated-run and role-ablation outputs, generated figures, source data, and manuscript-supporting documentation.
+The artifact contains prompts, compact evidence material, normalized DFMEA outputs, metric scripts, initial results, repeated-run and role-ablation outputs, a second mechanical braking transfer case, generated figures, source data, and manuscript-supporting documentation.
 
 The artifact is intended to support procedural auditability. It does not provide physical braking validation, safety certification, or expert-certified technical correctness.
 
@@ -16,13 +16,14 @@ The artifact is intended to support procedural auditability. It does not provide
 |---|---|
 | `original_reproducibility_package/` | Original AEI submission reproducibility files: evidence pack, prompts, method outputs, metric scripts, and initial metric outputs |
 | `experiment_extension/` | Top-conference extension package: ChatGPT manual runbook, repeated-run prompts, ablation prompts, run manifest, stability script, generated run CSVs, and stability summaries |
+| `second_case_bicycle_disc_brake_v1.0/` | Bicycle/e-bike mechanical disc brake transfer case: evidence pack, normalized M4 DFMEA rows, recomputed structural metrics, and manuscript-insert notes |
 | `figures_v0.3/` | Publication figure outputs in SVG, PDF, and PNG, plus source data |
 | `scripts/generate_figures_v0_3.py` | Python script used to regenerate Figures 1-3 |
 | `manuscript_support/` | Data availability, figure contracts, and literature-search support files |
 
 ## Current evidence status
 
-The current package includes the original single-run outputs for M2, M3, and M4 as `run01` seeds, plus additional repeated-run and role-ablation outputs generated during the top-conference rework. These outputs are AI-generated research artifacts under the documented workflow. They support structural auditability analysis only.
+The current package includes the original single-run outputs for M2, M3, and M4 as `run01` seeds, additional repeated-run and role-ablation outputs generated during the top-conference rework, and a second bicycle/e-bike mechanical disc brake transfer-case artifact. These outputs are AI-generated and author-verified research artifacts under the documented workflow. They support structural auditability analysis only.
 
 ## How to recompute original metrics
 
@@ -72,6 +73,22 @@ figures_v0.3/
 
 The TIFF files used for manuscript submission are intentionally not required for repository use because they are large generated derivatives.
 
+## How to recompute the second-case metrics
+
+From the project root:
+
+```powershell
+python experiment_extension\scripts\stability_metrics.py `
+  --runs second_case_bicycle_disc_brake_v1.0\runs `
+  --out second_case_bicycle_disc_brake_v1.0\case2_structural_metrics_v1.0.json
+```
+
+The script also writes:
+
+```text
+second_case_bicycle_disc_brake_v1.0/case2_structural_metrics_v1.0.md
+```
+
 ## Data and claim boundary
 
 This artifact supports the following claims:
@@ -80,6 +97,7 @@ This artifact supports the following claims:
 - evidence and inference labels can be inspected row by row;
 - RPN arithmetic consistency can be checked by script;
 - repeated-run and ablation outputs can be summarized with the included script once generated.
+- the second mechanical braking transfer case can be recomputed with the same structural metric script.
 
 This artifact does not support the following claims:
 

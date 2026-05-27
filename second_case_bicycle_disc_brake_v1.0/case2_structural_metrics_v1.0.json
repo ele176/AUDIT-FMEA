@@ -1,0 +1,92 @@
+{
+  "runs_dir": "C:\\aicoding\\lihuilunwen\\paper_project\\08_top_conference_rework\\AUDIT_FMEA_public_artifact_v0.3_for_github_zenodo\\second_case_bicycle_disc_brake_v1.0\\runs",
+  "run_count": 1,
+  "runs": [
+    {
+      "variant": "M4_case2_bicycle_disc_brake",
+      "run_id": "01",
+      "file": "M4_case2_bicycle_disc_brake_run01.csv",
+      "metrics": {
+        "row_count": 18,
+        "invalid_count": 0,
+        "invalid_rate": 0.0,
+        "duplicate_pair_count": 0,
+        "evidence_trace_count": 18,
+        "evidence_trace_rate": 1.0,
+        "high_risk_rpn_count": 6,
+        "high_severity_count": 14,
+        "rpn_mismatch_count": 0,
+        "duplicate_pairs": [],
+        "invalid_reasons_by_item": {
+          "C2-M4-001": [],
+          "C2-M4-002": [],
+          "C2-M4-003": [],
+          "C2-M4-004": [],
+          "C2-M4-005": [],
+          "C2-M4-006": [],
+          "C2-M4-007": [],
+          "C2-M4-008": [],
+          "C2-M4-009": [],
+          "C2-M4-010": [],
+          "C2-M4-011": [],
+          "C2-M4-012": [],
+          "C2-M4-013": [],
+          "C2-M4-014": [],
+          "C2-M4-015": [],
+          "C2-M4-016": [],
+          "C2-M4-017": [],
+          "C2-M4-018": []
+        }
+      }
+    }
+  ],
+  "summary": {
+    "M4_case2_bicycle_disc_brake": {
+      "n_runs": 1,
+      "metrics": {
+        "row_count": {
+          "mean": 18.0,
+          "sd": 0.0,
+          "min": 18.0,
+          "max": 18.0
+        },
+        "invalid_rate": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "duplicate_pair_count": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "evidence_trace_rate": {
+          "mean": 1.0,
+          "sd": 0.0,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "high_risk_rpn_count": {
+          "mean": 6.0,
+          "sd": 0.0,
+          "min": 6.0,
+          "max": 6.0
+        },
+        "high_severity_count": {
+          "mean": 14.0,
+          "sd": 0.0,
+          "min": 14.0,
+          "max": 14.0
+        },
+        "rpn_mismatch_count": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        }
+      }
+    }
+  }
+}

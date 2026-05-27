@@ -1,8 +1,8 @@
 # Artifact Manifest
 
-Version: 0.3
+Version: 0.4
 
-Date: 2026-05-26
+Date: 2026-05-27
 
 ## Original reproducibility package
 
@@ -68,6 +68,16 @@ Date: 2026-05-26
 - `manuscript_support/literature_search_and_verification_plan_v0.3.md`
 - `manuscript_support/reference_verification_matrix_v0.3.md`
 - `manuscript_support/zenodo_next_steps_v0.3.md`
+
+## Added v0.4 second mechanical braking transfer case
+
+- `second_case_bicycle_disc_brake_v1.0/README_second_case_v1.0.md`
+- `second_case_bicycle_disc_brake_v1.0/evidence_pack_bicycle_disc_brake_v1.0.md`
+- `second_case_bicycle_disc_brake_v1.0/runs/M4_case2_bicycle_disc_brake_run01.csv`
+- `second_case_bicycle_disc_brake_v1.0/case2_structural_metrics_v1.0.json`
+- `second_case_bicycle_disc_brake_v1.0/case2_structural_metrics_v1.0.md`
+- `second_case_bicycle_disc_brake_v1.0/manuscript_insert_second_case_v1.0.md`
+- `second_case_bicycle_disc_brake_v1.0/second_case_package_check_v1.0.md`
 
 ## Remaining optional work
 
