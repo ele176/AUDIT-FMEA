@@ -2,7 +2,7 @@
 
 Date: 2026-05-27
 
-Status: working citation-audit file. The GitHub artifact is now public and ready for Zenodo archiving.
+Status: working citation-audit file. The GitHub artifact is public and archived by Zenodo.
 
 ## Artifact access status
 
@@ -11,9 +11,10 @@ Status: working citation-audit file. The GitHub artifact is now public and ready
 | GitHub repository | Created and pushed |
 | Repository URL | `https://github.com/ele176/AUDIT-FMEA` |
 | Visibility | Public |
-| Release | `v0.3` created |
-| Release URL | `https://github.com/ele176/AUDIT-FMEA/releases/tag/v0.3` |
-| Zenodo DOI | Pending Zenodo GitHub integration and archive trigger |
+| Release | `v0.3.1` created to trigger Zenodo archiving |
+| Release URL | `https://github.com/ele176/AUDIT-FMEA/releases/tag/v0.3.1` |
+| Zenodo DOI | `10.5281/zenodo.20405407` |
+| Zenodo record | `https://zenodo.org/records/20405407` |
 
 ## Verified reference candidates
 

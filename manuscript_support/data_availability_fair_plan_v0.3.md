@@ -29,7 +29,7 @@ Selected route:
 
 Current status:
 
-The GitHub repository and `v0.3` release have been created, and the repository is now public. Zenodo DOI minting is pending GitHub-Zenodo integration and archive triggering.
+The GitHub repository and `v0.3.1` release have been archived by Zenodo. DOI: `10.5281/zenodo.20405407`.
 
 Alternative route:
 
@@ -46,20 +46,20 @@ Avoid:
 
 Data Availability
 
-The data and code supporting this study are available in a public versioned GitHub release and will be archived on Zenodo. The repository package includes the evidence pack, prompts, normalized DFMEA outputs, repeated-run and role-ablation outputs, metric scripts, run manifest, generated summary tables, figure source data, and generated figure files. The Zenodo DOI will be added here after archiving: [ZENODO DOI]. These materials support recomputation of the structural auditability metrics reported in the manuscript. They do not contain expert validation data, physical braking-test data, or safety-certification evidence.
+The data and code supporting this study are available through the AUDIT-FMEA reproducibility artifact on Zenodo at https://doi.org/10.5281/zenodo.20405407. The repository package includes the evidence pack, prompts, normalized DFMEA outputs, repeated-run and role-ablation outputs, metric scripts, run manifest, generated summary tables, figure source data, and generated figure files. These materials support recomputation of the structural auditability metrics reported in the manuscript. They do not contain expert validation data, physical braking-test data, or safety-certification evidence.
 
 ## Dataset citation template
 
 Use this after the repository record exists:
 
-Chris Wei (2026). AUDIT-FMEA reproducibility artifact for auditable multi-agent design failure analysis, version 0.3. Zenodo. [DOI].
+Chris Wei (2026). AUDIT-FMEA reproducibility artifact for auditable multi-agent design failure analysis, version 0.3. Zenodo. https://doi.org/10.5281/zenodo.20405407.
 
 ## FAIR checklist
 
 | FAIR item | Status | Action |
 |---|---|---|
-| Persistent identifier | Missing | Deposit in Zenodo, OSF, Figshare, Dryad, or institutional repository |
-| Public landing page | Missing | Create repository record with title, abstract, creator, affiliation, and date |
+| Persistent identifier | Present | DOI: `10.5281/zenodo.20405407` |
+| Public landing page | Present | `https://zenodo.org/records/20405407` |
 | File manifest | Present | Keep `ARTIFACT_MANIFEST.md` and `SUPPLEMENTARY_FILE_MANIFEST.md` |
 | README | Present | Ensure it explains how to recompute each table |
 | Licence | Present | Confirm licence matches intended reuse |

@@ -8,7 +8,7 @@ GitHub repository:
 
 GitHub release:
 
-`https://github.com/ele176/AUDIT-FMEA/releases/tag/v0.3`
+`https://github.com/ele176/AUDIT-FMEA/releases/tag/v0.3.1`
 
 Repository visibility:
 
@@ -18,15 +18,19 @@ Public.
 
 Archive GitHub release `v0.3` on Zenodo and obtain a DOI for the manuscript Data and Code Availability section.
 
+## Result
+
+Zenodo DOI:
+
+`10.5281/zenodo.20405407`
+
+Zenodo record:
+
+`https://zenodo.org/records/20405407`
+
 ## Web steps
 
-1. Open Zenodo.
-2. Sign in with GitHub.
-3. Go to GitHub integration / GitHub repositories.
-4. Find `ele176/AUDIT-FMEA`.
-5. Turn the repository switch on.
-6. Trigger archiving for release `v0.3`. If Zenodo does not automatically archive the existing release, create a new GitHub release such as `v0.3.1` after the switch is enabled.
-7. Copy the DOI from the Zenodo record.
+Complete.
 
 ## Metadata to verify on Zenodo
 
@@ -42,10 +46,13 @@ Archive GitHub release `v0.3` on Zenodo and obtain a DOI for the manuscript Data
 
 ## After DOI exists
 
-Update these files:
+Updated files:
 
 1. `manuscript_AUDIT_FMEA_topconf_v0.3.md`
 2. `data_availability_fair_plan_v0.3.md`
-3. `AUDIT_FMEA_public_artifact_v0.3_for_github_zenodo/.zenodo.json`, if Zenodo suggests metadata corrections
-4. Any cover letter or submission metadata created later
+3. `reference_verification_matrix_v0.3.md`
 
+Remaining later:
+
+1. Add DOI to cover letter or submission metadata if a new submission package is created.
+2. Run final DOI/link checks before submission.
