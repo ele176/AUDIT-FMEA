@@ -2,7 +2,7 @@
 
 Date: 2026-05-27
 
-Status: working citation-audit file. The GitHub artifact remains private, so Zenodo DOI is intentionally deferred.
+Status: working citation-audit file. The GitHub artifact is now public and ready for Zenodo archiving.
 
 ## Artifact access status
 
@@ -10,10 +10,10 @@ Status: working citation-audit file. The GitHub artifact remains private, so Zen
 |---|---|
 | GitHub repository | Created and pushed |
 | Repository URL | `https://github.com/ele176/AUDIT-FMEA` |
-| Visibility | Private |
+| Visibility | Public |
 | Release | `v0.3` created |
 | Release URL | `https://github.com/ele176/AUDIT-FMEA/releases/tag/v0.3` |
-| Zenodo DOI | Deferred until repository can be made public |
+| Zenodo DOI | Pending Zenodo GitHub integration and archive trigger |
 
 ## Verified reference candidates
 
@@ -58,4 +58,3 @@ Status: working citation-audit file. The GitHub artifact remains private, so Zen
 - https://www.aiag.org/training-and-resources/manuals/details/FMEAAV-1
 - https://www.sciencedirect.com/science/article/pii/S0360835219303857
 - https://assets.publishing.service.gov.uk/media/67ac4d545d27cee6cccec4c3/technical-research-into-construction-standards-for-e-scooters.pdf
-

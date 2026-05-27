@@ -29,7 +29,7 @@ Selected route:
 
 Current status:
 
-The GitHub repository and `v0.3` release have been created, but the repository remains private. Zenodo DOI minting is deferred until the target venue and anonymity policy are clear.
+The GitHub repository and `v0.3` release have been created, and the repository is now public. Zenodo DOI minting is pending GitHub-Zenodo integration and archive triggering.
 
 Alternative route:
 
@@ -46,7 +46,7 @@ Avoid:
 
 Data Availability
 
-The data and code supporting this study have been prepared in a private versioned GitHub release and will be archived on Zenodo when public release is allowed by the target venue. The repository package includes the evidence pack, prompts, normalized DFMEA outputs, repeated-run and role-ablation outputs, metric scripts, run manifest, generated summary tables, figure source data, and generated figure files. The Zenodo DOI or anonymous reviewer-access link will be added here: [ZENODO DOI OR REVIEWER LINK]. These materials support recomputation of the structural auditability metrics reported in the manuscript. They do not contain expert validation data, physical braking-test data, or safety-certification evidence.
+The data and code supporting this study are available in a public versioned GitHub release and will be archived on Zenodo. The repository package includes the evidence pack, prompts, normalized DFMEA outputs, repeated-run and role-ablation outputs, metric scripts, run manifest, generated summary tables, figure source data, and generated figure files. The Zenodo DOI will be added here after archiving: [ZENODO DOI]. These materials support recomputation of the structural auditability metrics reported in the manuscript. They do not contain expert validation data, physical braking-test data, or safety-certification evidence.
 
 ## Dataset citation template
 
