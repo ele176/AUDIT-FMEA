@@ -1,0 +1,24 @@
+{
+  "stress_test_version": "v1.0",
+  "purpose": "structural negative-control test for known DFMEA artifact defects",
+  "row_count": 12,
+  "expected_row_level_defects": 12,
+  "detected_expected_defects": 12,
+  "row_level_detection_recall": 1.0,
+  "duplicate_pair_count": 1,
+  "duplicate_pairs": [
+    [
+      "KD-003A",
+      "KD-003B",
+      1.0
+    ]
+  ],
+  "false_negative_rows": [],
+  "by_gate": {
+    "integrity_expected": 7,
+    "critic_expected": 5,
+    "integrity_detected": 7,
+    "critic_detected": 5
+  },
+  "claim_boundary": "Supports defect-detection and audit-protocol claims for injected structural/semantic artifact defects; does not validate real braking safety, S/O/D accuracy, or row correctness."
+}

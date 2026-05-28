@@ -1,6 +1,6 @@
 # Artifact Manifest
 
-Version: 0.5
+Version: 0.6
 
 Date: 2026-05-28
 
@@ -87,6 +87,21 @@ Date: 2026-05-28
 - `manuscript_support/data_evidence_chain_v1.0/claim_evidence_boundary_matrix_v1.0.csv`
 - `manuscript_support/data_evidence_chain_v1.0/source_id_legend_v1.0.csv`
 - `manuscript_support/data_evidence_chain_v1.0/data_evidence_chain_check_v1.0.md`
+
+## Added v0.6 known-defect stress test
+
+- `manuscript_support/known_defect_stress_test_v1.0/known_defect_injected_rows_v1.0.csv`
+- `manuscript_support/known_defect_stress_test_v1.0/known_defect_detection_results_v1.0.csv`
+- `manuscript_support/known_defect_stress_test_v1.0/known_defect_stress_test_summary_v1.0.json`
+- `manuscript_support/known_defect_stress_test_v1.0/known_defect_stress_test_summary_v1.0.md`
+- `manuscript_support/known_defect_stress_test_v1.0/manuscript_insert_known_defect_stress_test_v1.0.md`
+- `scripts/build_known_defect_stress_test_v1_0.py`
+
+## Added v0.6 representative evidence-rationale appendix
+
+- `manuscript_support/representative_evidence_rationale_v1.0/representative_row_level_evidence_rationale_v1.0.csv`
+- `manuscript_support/representative_evidence_rationale_v1.0/representative_row_level_evidence_rationale_v1.0.md`
+- `scripts/build_representative_evidence_rationale_v1_0.py`
 
 ## Remaining optional work
 

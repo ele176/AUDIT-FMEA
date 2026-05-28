@@ -1,12 +1,12 @@
 cff-version: 1.2.0
 message: "If you use this artifact, please cite the associated manuscript."
-title: "AUDIT-FMEA: Auditable Multi-Agent Workflows for Design Failure Analysis"
+title: "AUDIT-FMEA: An Auditable Multi-Agent LLM Protocol for Mechanical Braking DFMEA Artifacts"
 authors:
   - family-names: "Wei"
     given-names: "Chris"
 affiliation: "School of Mechanical, Electronic and Control Engineering, Beijing Jiaotong University"
 date-released: "2026-05-28"
-version: "0.5"
+version: "0.6"
 license: "CC-BY-4.0"
 keywords:
   - "design FMEA"

@@ -1,12 +1,12 @@
-# AUDIT-FMEA Public Artifact v0.5
+# AUDIT-FMEA Public Artifact v0.6
 
 This repository package supports the manuscript:
 
-**AUDIT-FMEA: Auditable Multi-Agent Workflows for Design Failure Analysis**
+**AUDIT-FMEA: An Auditable Multi-Agent LLM Protocol for Mechanical Braking DFMEA Artifacts**
 
 ## Purpose
 
-The artifact contains prompts, compact evidence material, normalized DFMEA outputs, metric scripts, initial results, repeated-run and role-ablation outputs, a second mechanical braking transfer case, generated figures, source data, a data provenance/evidence-boundary audit, and manuscript-supporting documentation.
+The artifact contains prompts, compact evidence material, normalized DFMEA outputs, metric scripts, initial results, repeated-run and role-ablation outputs, a second mechanical braking transfer case, a known-defect stress test, generated figures, source data, a data provenance/evidence-boundary audit, a representative row-level evidence-rationale appendix, and manuscript-supporting documentation.
 
 The artifact is intended to support procedural auditability. It does not provide physical braking validation, safety certification, or expert-certified technical correctness.
 
@@ -19,11 +19,11 @@ The artifact is intended to support procedural auditability. It does not provide
 | `second_case_bicycle_disc_brake_v1.0/` | Bicycle/e-bike mechanical disc brake transfer case: evidence pack, normalized M4 DFMEA rows, recomputed structural metrics, and manuscript-insert notes |
 | `figures_v0.3/` | Publication figure outputs in SVG, PDF, and PNG, plus source data |
 | `scripts/generate_figures_v0_3.py` | Python script used to regenerate Figures 1-3 |
-| `manuscript_support/` | Data availability, figure contracts, literature-search support files, and the data evidence-chain audit |
+| `manuscript_support/` | Data availability, figure contracts, literature-search support files, data evidence-chain audit, known-defect stress test, and representative evidence-rationale appendix |
 
 ## Current evidence status
 
-The current package includes the original single-run outputs for M2, M3, and M4 as `run01` seeds, additional repeated-run and role-ablation outputs generated during the top-conference rework, a second bicycle/e-bike mechanical disc brake transfer-case artifact, and a row-level data provenance audit. These outputs are AI-generated and author-verified research artifacts under the documented workflow. They support structural auditability analysis only.
+The current package includes the original single-run outputs for M2, M3, and M4 as `run01` seeds, additional repeated-run and role-ablation outputs generated during the top-conference rework, a second bicycle/e-bike mechanical disc brake transfer-case artifact, a known-defect stress test, a row-level data provenance audit, and a representative row-level evidence-rationale appendix. These outputs are AI-generated and author-normalized research artifacts under the documented workflow. They support structural auditability analysis only.
 
 ## How to inspect data provenance and evidence boundaries
 
@@ -40,6 +40,42 @@ manuscript_support/data_evidence_chain_v1.0/data_evidence_chain_report_v1.0.md
 ```
 
 The row-level CSV maps each retained primary-case and transfer-case AUDIT-FMEA row to source IDs, engineering-inference labels, generation route, field provenance, RPN arithmetic status, and unsupported claim boundaries.
+
+Representative row-level evidence rationales are stored in:
+
+```text
+manuscript_support/representative_evidence_rationale_v1.0/
+```
+
+These files explain, for ten selected rows, what the source note supports, which parts remain engineering inference, and what remains unverified.
+
+## How to inspect the known-defect stress test
+
+The known-defect stress-test files are stored in:
+
+```text
+manuscript_support/known_defect_stress_test_v1.0/
+```
+
+Start with:
+
+```text
+manuscript_support/known_defect_stress_test_v1.0/known_defect_stress_test_summary_v1.0.md
+```
+
+The stress test injects deliberately corrupted DFMEA rows and checks whether the critic and integrity defect classes detect pre-specified artifact defects. It is a structural negative-control test, not expert validation.
+
+To rebuild the stress-test outputs from the project root:
+
+```powershell
+python scripts\build_known_defect_stress_test_v1_0.py
+```
+
+To rebuild the representative evidence-rationale appendix:
+
+```powershell
+python scripts\build_representative_evidence_rationale_v1_0.py
+```
 
 ## How to recompute original metrics
 
@@ -112,7 +148,9 @@ This artifact supports the following claims:
 - structural traceability can be measured from normalized DFMEA rows;
 - evidence and inference labels can be inspected row by row;
 - field-level provenance and claim boundaries can be inspected in the data evidence-chain audit;
+- representative row-level evidence rationales can be inspected for selected rows;
 - RPN arithmetic consistency can be checked by script;
+- injected structural and semantic artifact defects can be inspected through the known-defect stress-test files;
 - repeated-run and ablation outputs can be summarized with the included script once generated.
 - the second mechanical braking transfer case can be recomputed with the same structural metric script.
 
