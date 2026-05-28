@@ -1,4 +1,4 @@
-# AUDIT-FMEA Public Artifact v0.4
+# AUDIT-FMEA Public Artifact v0.5
 
 This repository package supports the manuscript:
 
@@ -6,7 +6,7 @@ This repository package supports the manuscript:
 
 ## Purpose
 
-The artifact contains prompts, compact evidence material, normalized DFMEA outputs, metric scripts, initial results, repeated-run and role-ablation outputs, a second mechanical braking transfer case, generated figures, source data, and manuscript-supporting documentation.
+The artifact contains prompts, compact evidence material, normalized DFMEA outputs, metric scripts, initial results, repeated-run and role-ablation outputs, a second mechanical braking transfer case, generated figures, source data, a data provenance/evidence-boundary audit, and manuscript-supporting documentation.
 
 The artifact is intended to support procedural auditability. It does not provide physical braking validation, safety certification, or expert-certified technical correctness.
 
@@ -19,11 +19,27 @@ The artifact is intended to support procedural auditability. It does not provide
 | `second_case_bicycle_disc_brake_v1.0/` | Bicycle/e-bike mechanical disc brake transfer case: evidence pack, normalized M4 DFMEA rows, recomputed structural metrics, and manuscript-insert notes |
 | `figures_v0.3/` | Publication figure outputs in SVG, PDF, and PNG, plus source data |
 | `scripts/generate_figures_v0_3.py` | Python script used to regenerate Figures 1-3 |
-| `manuscript_support/` | Data availability, figure contracts, and literature-search support files |
+| `manuscript_support/` | Data availability, figure contracts, literature-search support files, and the data evidence-chain audit |
 
 ## Current evidence status
 
-The current package includes the original single-run outputs for M2, M3, and M4 as `run01` seeds, additional repeated-run and role-ablation outputs generated during the top-conference rework, and a second bicycle/e-bike mechanical disc brake transfer-case artifact. These outputs are AI-generated and author-verified research artifacts under the documented workflow. They support structural auditability analysis only.
+The current package includes the original single-run outputs for M2, M3, and M4 as `run01` seeds, additional repeated-run and role-ablation outputs generated during the top-conference rework, a second bicycle/e-bike mechanical disc brake transfer-case artifact, and a row-level data provenance audit. These outputs are AI-generated and author-verified research artifacts under the documented workflow. They support structural auditability analysis only.
+
+## How to inspect data provenance and evidence boundaries
+
+The data evidence-chain audit is stored in:
+
+```text
+manuscript_support/data_evidence_chain_v1.0/
+```
+
+Start with:
+
+```text
+manuscript_support/data_evidence_chain_v1.0/data_evidence_chain_report_v1.0.md
+```
+
+The row-level CSV maps each retained primary-case and transfer-case AUDIT-FMEA row to source IDs, engineering-inference labels, generation route, field provenance, RPN arithmetic status, and unsupported claim boundaries.
 
 ## How to recompute original metrics
 
@@ -95,6 +111,7 @@ This artifact supports the following claims:
 
 - structural traceability can be measured from normalized DFMEA rows;
 - evidence and inference labels can be inspected row by row;
+- field-level provenance and claim boundaries can be inspected in the data evidence-chain audit;
 - RPN arithmetic consistency can be checked by script;
 - repeated-run and ablation outputs can be summarized with the included script once generated.
 - the second mechanical braking transfer case can be recomputed with the same structural metric script.

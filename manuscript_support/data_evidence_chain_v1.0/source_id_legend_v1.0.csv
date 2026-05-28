@@ -1,0 +1,14 @@
+source_id,case,basis,support_role,local_basis_file,manuscript_reference
+S01,primary electric-scooter braking case,CPSC micromobility safety report,hazard context and reported brake-related scenarios,original_reproducibility_package/data/evidence_pack.md,[1]
+S02,primary electric-scooter braking case,UK Department for Transport e-scooter construction standards report,"braking-system boundary, requirements, and design-review context",original_reproducibility_package/data/evidence_pack.md,[9]
+S03,primary electric-scooter braking case,EN 17128:2020 terminology preview,braking-system terminology and boundary support,original_reproducibility_package/data/evidence_pack.md,[10]
+S04,method framing,El Hassani et al. LLM-FMEA paper,related-work motivation for LLM-assisted FMEA,original_reproducibility_package/data/evidence_pack.md,[3]
+S05,method framing,Knowledge graph-enhanced RAG for FMEA,RAG-FMEA baseline and grounding limitation context,original_reproducibility_package/data/evidence_pack.md,[11]
+S06,method framing,LLM plus RAG FMEA automation framework,direct RAG-FMEA prior-art boundary,original_reproducibility_package/data/evidence_pack.md,[2]
+S09,method framing,Seven failure points in RAG systems,RAG failure categories translated into artifact checks,original_reproducibility_package/data/evidence_pack.md,[4]
+S10,method framing,MechAgents,mechanics-oriented multi-agent LLM framing,original_reproducibility_package/data/evidence_pack.md,[12]
+S11,method framing,Agentic LLMs for conceptual systems engineering and design,agentic systems-engineering framing,original_reproducibility_package/data/evidence_pack.md,local evidence pack only
+B1,bicycle/e-bike mechanical disc brake transfer case,CPSC Lectric e-bike mechanical disc brake caliper recall,"caliper failure, loss of braking power, loss-of-control effect",second_case_bicycle_disc_brake_v1.0/evidence_pack_bicycle_disc_brake_v1.0.md,[14]
+B2,bicycle/e-bike mechanical disc brake transfer case,CPSC Tektro/TRP Spyre mechanical disc brake caliper recall,actuator-arm over-rotation and caliper-part dislocation mechanism,second_case_bicycle_disc_brake_v1.0/evidence_pack_bicycle_disc_brake_v1.0.md,[15]
+B3,bicycle/e-bike mechanical disc brake transfer case,16 CFR 1512.5 bicycle braking-system requirements,"brake attachment, locking-device, cable-anchor, and pad-retention requirements",second_case_bicycle_disc_brake_v1.0/evidence_pack_bicycle_disc_brake_v1.0.md,[16]
+B4,bicycle/e-bike mechanical disc brake transfer case,Shimano DM-BR0007-04 mechanical disc brake dealer manual,"mechanical disc brake installation, adjustment, torque, clearance, wear, and contamination guidance",second_case_bicycle_disc_brake_v1.0/evidence_pack_bicycle_disc_brake_v1.0.md,[17]

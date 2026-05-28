@@ -1,0 +1,9 @@
+manuscript_claim,supporting_data,evidence_strength,remaining_limit
+AUDIT-FMEA preserves row-level evidence traceability,M3/M4 evidence_trace fields; evidence trace rate metric,recomputable structural evidence,a trace marker is not a correctness certificate
+AUDIT-FMEA reduces opaque table generation by exposing intermediate artifacts,"role-to-defect contract, critic_notes, evidence labels, integrity checks, prompts",artifact/process evidence,does not prove improved human decision outcomes
+The integrity role prevents formal defects,"M4_no_integrity ablation metrics: invalid rate, evidence trace drop, RPN mismatch",recomputable ablation evidence,"only tested in generated artifacts, not physical engineering workflow"
+The critic role targets semantic artifact defects,M4_no_critic ablation metrics: duplicate pair and invalid-row pattern,bounded artifact evidence,semantic correctness still requires human/domain review
+The workflow transfers to a second related mechanical braking case,bicycle/e-bike mechanical disc brake run and case2 structural metrics,single transfer-case structural evidence,both cases remain related braking systems; no broad mechanical generality claim
+The generated DFMEA rows are technically correct,not supported in current dataset,unsupported claim,"requires expert validation, proprietary design data, or physical/field evidence"
+S/O/D ratings are calibrated or accurate,not supported in current dataset,unsupported claim,requires expert scoring protocol or empirical reliability data
+The workflow certifies braking safety or regulatory compliance,not supported in current dataset,unsupported claim,"requires formal safety assessment, testing, and compliance review"

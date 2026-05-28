@@ -5,8 +5,8 @@ authors:
   - family-names: "Wei"
     given-names: "Chris"
 affiliation: "School of Mechanical, Electronic and Control Engineering, Beijing Jiaotong University"
-date-released: "2026-05-26"
-version: "0.3"
+date-released: "2026-05-28"
+version: "0.5"
 license: "CC-BY-4.0"
 keywords:
   - "design FMEA"

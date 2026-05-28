@@ -1,8 +1,8 @@
 # Artifact Manifest
 
-Version: 0.4
+Version: 0.5
 
-Date: 2026-05-27
+Date: 2026-05-28
 
 ## Original reproducibility package
 
@@ -78,6 +78,15 @@ Date: 2026-05-27
 - `second_case_bicycle_disc_brake_v1.0/case2_structural_metrics_v1.0.md`
 - `second_case_bicycle_disc_brake_v1.0/manuscript_insert_second_case_v1.0.md`
 - `second_case_bicycle_disc_brake_v1.0/second_case_package_check_v1.0.md`
+
+## Added data provenance and evidence-boundary audit
+
+- `manuscript_support/data_evidence_chain_v1.0/data_evidence_chain_report_v1.0.md`
+- `manuscript_support/data_evidence_chain_v1.0/row_level_evidence_chain_v1.0.csv`
+- `manuscript_support/data_evidence_chain_v1.0/field_provenance_matrix_v1.0.csv`
+- `manuscript_support/data_evidence_chain_v1.0/claim_evidence_boundary_matrix_v1.0.csv`
+- `manuscript_support/data_evidence_chain_v1.0/source_id_legend_v1.0.csv`
+- `manuscript_support/data_evidence_chain_v1.0/data_evidence_chain_check_v1.0.md`
 
 ## Remaining optional work
 
